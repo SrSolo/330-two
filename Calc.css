@@ -1,0 +1,13 @@
+body{
+    background-color: lightyellow;
+    text-align: center;
+}
+.bar{
+    width: 20%;
+    padding: 0px; 
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.submit{
+    margin-top: 10px; 
+}
