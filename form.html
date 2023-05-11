@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<meta charset="UTF-8">
+<head>
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" type="text/css" href="Calc.css" >
+</head>
+<body>
+    <div class="header">
+        <h1>Simple Calculator</h1>
+    </div>
+    <form action="result.php" method="GET">
+
+        <input class = "bar" type="number" placeholder="x" required>  
+        <p>
+            <input type="radio" name="operation" value="add" id="add" /> <label for="add">Add</label> &nbsp;
+		    <input type="radio" name="operation" value="subtract" id="subtract" /> <label for="subtract">Subtract</label>
+            <input type="radio" name="operation" value="multiply" id="multiply" /> <label for="multiply">Multiply</label> &nbsp;
+		    <input type="radio" name="operation" value="divide" id="divide" /> <label for="divide">Divide</label>
+        </p>
+        <input class = "bar" type="number" placeholder="y" required> 
+
+        <br>     
+        <button class = "submit" type="submit">Calculate</button> 
+        <input type="reset" />    
+    </form>
+</body>
+</html>
