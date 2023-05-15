@@ -23,6 +23,9 @@ function multiply($x, $y){
     return $x * $y;
 }
 function divide($x, $y){
+    if($y = 0){
+        return "infinity"; 
+    }
     return $x / $y;
 }
 
@@ -43,5 +46,8 @@ switch($op) {
         break;
 }
 ?>
+<form>
+<input type="button" value="Go back!" onclick="history.back()">
+</form>
 </body>
 </html>
